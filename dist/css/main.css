@@ -273,6 +273,8 @@ main {
     main .lg-heading {
       margin-top: 1rem;
       font-size: 3rem; }
+    main .about-info img {
+      width: 100%; }
   .projects {
     grid-template-columns: 1fr; }
   .boxes div {

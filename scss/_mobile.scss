@@ -79,7 +79,14 @@
             margin-top: 1rem;
             font-size: 3rem;
         }
+
+        .about-info{
+            img{
+                width: 100%;
+            }
+        }
     }    
+
 
     .projects {
         grid-template-columns: 1fr;
