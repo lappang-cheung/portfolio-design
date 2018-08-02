@@ -77,11 +77,17 @@
 
         .lg-heading{
             margin-top: 1rem;
-            font-size: 5rem;
+            font-size: 3rem;
         }
     }    
-    
+
     .projects {
         grid-template-columns: 1fr;
+    }
+
+    .boxes {
+        div {
+            font-size: 1.5rem;
+        }
     }
 }
