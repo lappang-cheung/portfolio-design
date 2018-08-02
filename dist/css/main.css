@@ -73,7 +73,7 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: #fff;
+    color: set-background-color(#444);
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
@@ -117,7 +117,8 @@
 
 @media screen and (max-width: 500px) {
   main#home h1 {
-    margin-top: 10vh !important; } }
+    margin-top: 10vh !important;
+    font-size: 4rem; } }
 
 * {
   box-sizing: border-box; }
